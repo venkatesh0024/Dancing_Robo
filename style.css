@@ -1,0 +1,246 @@
+body{
+    background: gray;
+}
+
+h1{
+    color: white;
+    margin-bottom: 10px;
+    text-align:center;
+}
+.container{
+    height: 500px;
+    width: 500px;
+    margin:auto;
+    margin-top:5%;
+}
+
+.face{
+    height: 125px;
+    width: 150px;
+    background: chartreuse;
+    margin: auto;
+    margin-top: 50px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+   
+   
+}
+.container:hover .face{
+    animation:face 1s infinite;
+}
+@keyframes face{
+    0%{
+    transform:translateX(5px);
+    }
+    25%{
+        transform:translate(20px);
+    }
+    50%{
+        transform:translate(-5px);
+    }
+    75%{
+        transform:translate(-20px);
+    }
+    100%{
+        transform:taranslate(5px);
+    }
+    }
+
+
+.eyes{
+    display:flex;
+    width:150px;
+    justify-content:space-evenly;
+    padding-top: 60px;
+
+}
+.leye{
+    height: 30px;
+    width: 30px;
+    background: rgb(255, 255, 255);
+    margin: auto;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    
+}
+.container:hover .leye{
+    animation:reye 2s infinite;
+}
+@keyframes leye{
+    0%{
+        height:30px;
+        transform: rotate(30deg);
+    }
+    50%{
+        height:30px;
+        transform: rotate(30deg);
+    }
+    100%{
+        height:30px;
+        transform: rotate(30deg);
+    }
+
+}
+
+.reye{
+    height: 30px;
+    width: 30px;
+    background: white;
+    margin: auto;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+.container:hover .reye{
+    animation:reye 2s infinite;
+}
+@keyframes reye{
+    0%{
+        height:30px;
+        transform: rotate(30deg);
+    }
+    50%{
+        height:30px;
+        transform: rotate(30deg);
+    }
+    100%{
+        height:30px;
+        transform: rotate(30deg);
+    }
+
+}
+.body{
+    display: flex;
+    width: 250px;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 10px;
+}
+.larm{
+    height:85px ;
+    width: 23px;
+    background: chartreuse;
+    margin-top: 20px;
+    border-radius: 30%;
+}
+.container:hover .larm{
+    animation: larm 2s infinite;
+}
+@keyframes larm{
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top;
+
+    }
+    50%{
+        transform: rotate(40deg);
+        transform-origin: top;
+    }
+    100%{
+        transform: rotate(0deg);
+        transform-origin: top;
+    }
+}
+.center{
+    height:125px ;
+    width: 150px;
+    background: chartreuse;
+    margin-top:2px;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+.container:hover .center{
+    animation:center 0.7s infinite;
+}
+@keyframes center{
+    0%{
+        transform: rotate(60deg);
+        border-radius: 25%;
+    }
+    25%{
+        transform: rotate(-50deg);
+        border-radius: 25%;
+    }
+    50%{
+        transform: rotate(90deg);
+        border-radius: 25%;
+    }
+    75%{
+        transform: rotate(-180deg);
+        border-radius: 50%;
+    }
+    100%{
+        transform: rotate(160deg);
+        border-radius: 25%;
+    }
+}
+.rarm{
+    height:85px ;
+    width: 23px;
+    background: chartreuse;
+    margin-top: 20px;
+    border-radius: 30%;
+}
+.container:hover .rarm{
+    animation: rarm 2s infinite;
+}
+@keyframes rarm{
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top;
+    }
+    50%{
+        transform: rotate(-40deg);
+        transform-origin: top;
+    }
+    100%{
+        transform: rotate(0deg);
+        transform-origin: top;
+    }
+}
+.container:hover .rarm{
+    animation: rarm 2s infinite;
+}
+@keyframes rarm{
+    0%{
+        transform:translateY(10px);
+    }
+    50%{
+        transform: rotate(-40deg);
+        transform-origin: top;
+    }
+    100%{
+        transform: rotate(0deg);
+        transform-origin: top;
+    }
+}
+.legs{
+    display:flex;
+    width: 150px;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.lleg{
+    height: 85px;
+    width: 23px;
+    background: chartreuse;
+    margin-top: 10px;
+    border-radius: 30%;
+}
+.container:hover .lleg{
+    animation: lleg 2s infinite;
+}
+.rleg{
+    height: 85px;
+    width: 23px;
+    background: chartreuse;
+    margin-top: 10px;
+    border-radius: 30%;
+
+}
+.container:hover .rleg{
+    animation: rleg 1s infinite;
+}
